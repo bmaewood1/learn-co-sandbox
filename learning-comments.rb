@@ -25,15 +25,14 @@ def play(songs)
   puts "Please enter a song name or number"
   input = gets.chomp
   num = songs.length
-    if input.to_i < num && input.to_i >= 0
+    if input.to_i <= num && input.to_i >= 0
       puts "Playing #{songs[input.to_i - 1]}"
-    elsif songs[input] != nil
+    elsif songs[input.to_s] != nil
       puts "Playing #{input}"
     else
       puts "Invalid input, please try again"
     end
 end
-
 
 play(songs)
 
