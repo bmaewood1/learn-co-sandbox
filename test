@@ -1,0 +1,49 @@
+var cuteAnimal = 'quokka';
+ 
+function makeVariable() {
+  var cuteAnimal = 'sugar glider';
+  return cuteAnimal;
+}
+ 
+makeVariable();
+
+ 
+cuteAnimal;
+
+def play(songs)
+  puts "Please enter a song name or number:"
+  input = gets.strip
+  input2 = input.to_i
+  if input2 < songs.length && input2 >= 0
+    input3 = input2 - 1
+    puts "Playing #{songs[input3]}"
+  elsif songs.index(input) != nil
+    puts "Playing #{input}"
+  else
+    puts "Invalid input, please try again"
+  end
+end
+
+def play(songs)
+  puts "Please enter a song name or number:"
+  input = gets.strip
+  songs.each_with_index do |index, song|
+    if 
+  end
+end
+
+
+def play(songs)
+  puts "Please enter a song name or number:"
+  input = gets.strip
+  if input.length > 1 && songs[input] != nil
+    puts "Playing #{input}"
+  elsif input.length = 1 && input.to_i != nil && input.to_i >= 0 && input.to_i <= songs.length
+    input2 = input.to_i - 1
+    puts "Playing #{songs[input2]}"
+  else
+    puts "Invalid command, please try again"
+  end
+end
+
+play(songs)

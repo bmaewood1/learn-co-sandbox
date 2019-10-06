@@ -9,3 +9,18 @@ Saving varies by the type of work you are doing:
 -- *Git repositories that you clone into the Sandbox are NOT automatically saved.* In this case, you are responsible for committing and pushing your work to GitHub. 
 
 To learn more about the Sandbox, please visit http://help.learn.co/technical-support/learn-ide-in-browser/ide-in-browser-sandbox
+
+// declare the variable
+var word
+ 
+// assign a value to the variable
+word = 'bird'
+ 
+console.log(word) // 'bird'
+ 
+// assign another value to the variable
+word = 'dog'
+ 
+console.log(word) // 'dog'
+
+var word = 'bird'
